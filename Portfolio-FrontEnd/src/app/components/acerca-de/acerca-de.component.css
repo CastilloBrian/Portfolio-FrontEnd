@@ -1,6 +1,7 @@
 .row{
     padding: 10px;
 }
+
 div{
     text-align: center;
 }
@@ -26,6 +27,6 @@ div{
         width: 30%;
         left: 35%;
         border-radius: 100%;
-        top: 500px;
+        top: 625px;
     }
 }

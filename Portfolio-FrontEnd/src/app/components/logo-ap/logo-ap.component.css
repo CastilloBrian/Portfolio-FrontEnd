@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redesSociales{
+    margin-right: 15px;
+}
+
+.redesSociales img{
+    margin: 10px;
+}
+
+#LogoGitHub{
+    width: 50px;
+}
+
+@media (max-width:575px){
+.container{
+    flex-direction: column;
+}
+
+.redesSociales{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+}
