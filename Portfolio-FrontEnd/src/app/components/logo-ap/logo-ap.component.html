@@ -5,7 +5,8 @@
         </div>
         <div class="redesSociales">
             <a href=""><img src="../../../assets/LogoGitHub.png" alt="GitHub" id="LogoGitHub"></a>
-            <button type="button" class="btn btn-outline-light">Iniciar Sesion</button>
+            <button type="button" (click)="login()" *ngIf="!isLogged" class="btn btn-outline-light">Iniciar Sesion</button>
+            <button type="button" (click)="onLogOut()" *ngIf="isLogged" class="btn btn-outline-light">Cerrar Sesion</button>
         </div>
     </div>
 </div>
